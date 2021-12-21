@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "css/style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <script src="app.js"></script>
+
+    <div class="b-g__header" style="background-image: url(images/ocean1.jpg)" >
+    <!-- Header -->
+    <header class="header">
+        <div class="conteiner">
+
+            <div class="header__inner">
+                <nav class="nav">
+                    <a class="nav__link nav_work" onclick="setscrollTo(1250); return false" href="#" >works</a>
+                    <a class="nav__link nav_about" onclick="setscrollTo(600); return false" href="#">about me</a>
+                    <a class="nav__link nav_cont" onclick="setscrollTo(250); return false" href="#">contacts</a>
+                </nav>
+            </div>
+                
+        </div>
+
+    </header>  <!-- /.Header -->
+   
+
+<!-- Intro -->
+<section>
+   
+    <div class="conteiner">
+        <div class="intro__inner">
+            <div class="intro__content">
+                <h2 class="intro__subtitle">Hello i'm</h2>
+                <h1 class="intro__title">Valeria Zubkova</h1>
+                <button class="btn" type="button"  onclick="window.open('https:drive.google.com/file/d/1q1OKVEKOgn68NCzmoShl9UIhsePo2kD1/view?usp=sharing','_blank')">SEE MY RESUME</button>
+            </div>
+            
+            <img class="intro__photo" src="images/me.jpg" width="320" height="320" alt="">
+
+        </div>
+
+    </div> <!-- /.conteiner -->
+    </div> <!-- /.Intro -->
+
+</section>
+
+
+ <!-- Contacts -->
+<section class="contacts">
+    <div class="conteiner">
+        <hr class="hr-line"/>
+        <div class="allCont">
+            <div class="gmail">
+                <h1>email</h1>
+                <p class="p-gmail">talera051@gmail.com</p>
+            </div>
+            <div class="telegram">
+                <h1>telegram</h1>
+                <a class="nav-tel" href="https://t.me/prostolera77">https://t.me/prostolera77</a>
+            </div>
+        </div>
+        <hr class="hr-line"/>
+
+    </div>
+
+</section>
+ <!-- /Contacts -->
+
+
+
+<section class="b-g__about">
+    <div class="about">
+        <div class="conteiner">
+    
+                <div class="about__inner">
+                    <div class="about__photo" >
+                        <img class="img" src="images/i.jpg"  alt="">
+                    </div>
+                    <div class="about__content">
+                        <h3 class="about__title">about me</h3>
+                        <h2 class="about__bigtitle">who am i</h2>
+                            <div class="about__text">
+                                <p>Привет! Меня зовут Лера. Я начинающий frondend разработчик.</p>
+                                <p>Мне очень нравится изучать новые технологии и инструменты.</p>
+                                <p>Имею несколько небольших работ, которые находяться ниже :)</p>
+                            </div>
+                            
+                            <button class="btn btn--about" type="button" onclick="window.open('https:drive.google.com/file/d/1q1OKVEKOgn68NCzmoShl9UIhsePo2kD1/view?usp=sharing','_blank')">SEE MY RESUME</button>
+                            
+                    </div>
+                </div>
+        </div> <!-- /.conteiner -->
+    </div> <!-- /.about -->
+
+</section>
+
+
+
+
+<!-- Works -->
+<section class="works">
+    <div class="conteiner">
+
+        <div class="works">
+            <h1>My works</h1>
+        </div>
+
+        <div class="portfolio">
+            <div class="portfolio__col">
+
+                <div class="work">
+
+                    <a  target="_blank" href="https://github.com/leraleraLL/Magic-board">
+                        <img class="work__img"src="images/magic_board.png"   alt="">
+                    </a>
+                    <div class="work__content">
+                        <div class="work__cat">Project</div>
+                        <div class="work__title">
+                            Magic board
+                            <time class="work__date" detetime="2020-11-22 20:00">2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__col">
+
+                <div class="work">
+
+                    <a target="_blank" href="https://github.com/leraleraLL/Drag_and_Drop">
+                        <img class="work__img"src="images/drag_and_drop.jpg"  alt="">
+                    </a>    
+                    <div class="work__content">
+                        <div class="work__cat">Project</div>
+                        <div class="work__title">
+                            Drag & Drop
+                            <time class="work__date" detetime="2020-11-22 20:00">2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__col">
+
+                <div class="work">
+
+                    <a target="_blank" href="https://leralerall.github.io/Cards_Sources/">
+                        <img class="work__img"src="images/cards.jpg" alt="">
+                    </a>
+                    <div class="work__content">
+                        <div class="work__cat">Project</div>
+                        <div class="work__title">
+                            Cards Sources
+                            <time class="work__date" detetime="2020-11-22 20:00">2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__col">
+
+                <div class="work">
+
+                    <a target="_blank" href="https://github.com/leraleraLL/Calculator">
+                        <img class="work__img"src="images/calculator.jpg" alt="">
+                    </a>
+                    <div class="work__content">
+                        <div class="work__cat">Project</div>
+                        <div class="work__title">
+                            Calculator
+                            <time class="work__date" detetime="2020-11-22 20:00">2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__col">
+
+                <div class="work">
+
+                    <a target="_blank" href="https://github.com/leraleraLL/Slider">
+                        <img class="work__img"src="images/slider.jpg" alt="">
+                    </a>
+                    <div class="work__content">
+                        <div class="work__cat">Project</div>
+                        <div class="work__title">
+                            Slider
+                            <time class="work__date" detetime="2020-11-22 20:00">2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__col">
+
+                <div class="work">
+
+                    <a target="_blank" href="https://github.com/leraleraLL/Catch_the_ball">
+                        <img class="work__img"src="images/catch_the_ball.jpg" alt="">
+                    </a>
+                    <div class="work__content">
+                        <div class="work__cat">Project</div>
+                        <div class="work__title">
+                            Catch_the_ball
+                            <time class="work__date" detetime="2020-11-22 20:00">2021</time>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /.portfolio  -->
+        
+        
+    </div> <!-- /.conteiner -->
+
+</section> <!-- /.Works -->
+
+
+
+
+<script src="app.js"></script>
+
+
+</body>
+</html>
